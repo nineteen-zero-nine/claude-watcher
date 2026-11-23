@@ -1,7 +1,20 @@
-# claude-watcher
+<h1 align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/logo-dark.svg">
+    <img src="assets/logo-light.svg" alt="claude-watcher" width="560">
+  </picture>
+</h1>
 
 Shows two things about a Claude Code setup: which hooks are configured, and
 what is filling a session's context window.
+
+<p align="center">
+  <a href="assets/claude-watcher.mp4">
+    <img src="assets/film-poster.png" alt="Watch the film: what fills your context (1 min 18 s, with sound)" width="720">
+  </a>
+  <br>
+  <sub>The film, in 78 seconds: <a href="assets/claude-watcher.mp4">watch</a> · <a href="assets/claude-watcher.en.srt">subtitles</a></sub>
+</p>
 
 ```
 cargo install --path .

@@ -1,0 +1,62 @@
+1
+00:00:01,000 --> 00:00:04,730
+A Claude Code session fills
+its context window as it works.
+
+2
+00:00:05,120 --> 00:00:06,350
+But with what?
+
+3
+00:00:08,950 --> 00:00:13,600
+claude-watcher reads the session's
+transcript, and splits the window by cause:
+
+4
+00:00:13,870 --> 00:00:18,280
+tool results, tool definitions,
+assistant output, and the rest.
+
+5
+00:00:20,450 --> 00:00:25,620
+Each part opens into smaller ones:
+per tool, per skill, per file.
+
+6
+00:00:25,910 --> 00:00:29,100
+Down to the text itself,
+as the model receives it.
+
+7
+00:00:30,650 --> 00:00:35,060
+The total is the usage the
+API reported, so it is exact.
+
+8
+00:00:35,350 --> 00:00:38,680
+The split follows the growth
+from one request to the next.
+
+9
+00:00:42,250 --> 00:00:45,760
+Subagents get the same breakdown,
+listed by their peak.
+
+10
+00:00:48,250 --> 00:00:53,820
+It also lists every configured hook,
+from every source, highest precedence first.
+
+11
+00:00:56,750 --> 00:01:00,300
+All of it in the terminal,
+kept current while the session runs.
+
+12
+00:01:06,300 --> 00:01:07,370
+claude-watcher.
+
+13
+00:01:07,660 --> 00:01:09,410
+See what fills your context.
+
