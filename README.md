@@ -8,12 +8,10 @@
 Shows two things about a Claude Code setup: which hooks are configured, and
 what is filling a session's context window.
 
+https://github.com/user-attachments/assets/7c5041ea-2c48-451a-ad1c-e88b64547252
+
 <p align="center">
-  <a href="assets/claude-watcher.mp4">
-    <img src="assets/film-poster.png" alt="Watch the film: what fills your context (1 min 18 s, with sound)" width="720">
-  </a>
-  <br>
-  <sub>The film, in 78 seconds: <a href="assets/claude-watcher.mp4">watch</a> · <a href="assets/claude-watcher.en.srt">subtitles</a></sub>
+  <sub>The film: 78 seconds, with sound · <a href="assets/claude-watcher.en.srt">subtitles</a> · <a href="assets/claude-watcher.mp4">file</a></sub>
 </p>
 
 ```
