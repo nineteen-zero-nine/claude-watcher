@@ -60,6 +60,18 @@ claude-watcher context --part inj/notes --content      every injected note
 claude-watcher context --subagent 1 --part ass/think --content
 ```
 
+## Agent skill
+
+[`skills/claude-watcher`](skills/claude-watcher/SKILL.md) teaches an agent to
+inspect a session with these commands: picking the session, reading the
+breakdown, going down to the text, subagents and hooks. To give it to Claude
+Code, copy the folder into `~/.claude/skills/`, or into a project's
+`.claude/skills/`:
+
+```
+mkdir -p ~/.claude/skills && cp -R skills/claude-watcher ~/.claude/skills/
+```
+
 ## Interactive view
 
 Four tabs, kept current in the background as transcripts and settings change:
